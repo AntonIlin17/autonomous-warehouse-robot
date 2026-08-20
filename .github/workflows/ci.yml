@@ -20,7 +20,8 @@ jobs:
             sudo rosdep init
           fi
           rosdep update
-          rosdep install --from-paths src --ignore-src -r -y
+          source /opt/ros/jazzy/setup.bash
+          rosdep install --from-paths src --ignore-src --rosdistro jazzy -r -y
       - name: Portable tests
         run: python3 -m pytest
       - name: Build
