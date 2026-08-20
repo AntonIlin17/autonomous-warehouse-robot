@@ -1,0 +1,8 @@
+id,name,x,y,yaw,aliases,description
+loading_area,Loading Area,3.0,-4.0,0.0,loading area;loading dock;dock;loading zone,Approach pose west of the loading dock platform
+aisle_1,Aisle 1,-4.75,0.0,0.0,aisle 1;aisle one;first aisle,Centerline of the western shelf aisle
+aisle_2,Aisle 2,-2.25,0.0,0.0,aisle 2;aisle two;second aisle,Centerline of the middle-left shelf aisle
+aisle_3,Aisle 3,0.25,0.0,0.0,aisle 3;aisle three;third aisle,Centerline of the middle-right shelf aisle
+packing_station,Packing Station,4.5,5.0,0.0,packing station;packing area;packing table;packing,Approach pose west of the packing tables
+charging_station,Charging Station,5.5,0.0,0.0,charging station;charging area;charger,Approach pose west of the charging fixture
+home,Home,0.0,6.0,3.14159,home;start;starting position;base,Robot spawn pose

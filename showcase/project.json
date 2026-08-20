@@ -1,0 +1,25 @@
+{
+  "name": "Autonomous Warehouse Robot",
+  "repository": "https://github.com/AntonIlin17/autonomous-warehouse-robot",
+  "owner": "Anton Ilin",
+  "teamSize": 5,
+  "platform": ["ROS 2 Jazzy", "Gazebo Harmonic", "Nav2", "AMCL", "SLAM Toolbox"],
+  "languages": ["Python", "C++", "XML", "YAML"],
+  "baseline": {
+    "submittedBehavior": "deterministic keyword matching",
+    "executable": "keyword_nav_node"
+  },
+  "portfolioEnhancement": {
+    "name": "allow-listed Mistral intent resolver",
+    "submittedWithCourseProject": false,
+    "executable": "mistral_nav_node",
+    "credentialSource": "MISTRAL_API_KEY environment variable"
+  },
+  "scope": {
+    "environment": "static 2D simulated warehouse",
+    "destinations": 7,
+    "dynamicObstacleValidation": false,
+    "realRobotValidation": false
+  },
+  "license": null
+}
